@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background: url(images/mee.jpg);
+      background-color:#DA1B48 ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .content-area {
+      margin-top: 250px;
+  }
+  .img-circle {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 0px;
+}
+.content-area-51 {
+  width: 93%;
+  margin-top: 523px;
+  position: absolute;
+  top: 433%;
+  display: none;
+}
+i {
+  font-size: 25px;
+  margin-right: 17px;
+  color: #ffffff;
+}
+.input-area {
+  width: 48%;
+  padding: 3px 5px;
+  margin-left: 1px;
+}
+.upper-content h4 {
+  text-align: center;
+  font-size: 20px;
+}
+.sm-black {
+  color: black !important;
+  font-weight: bold;
+}
+  }
+
+  @media only screen and (max-width: 375px) {
+    .content-area-51 {
+      width: 93%;
+      margin-top: 523px;
+      position: absolute;
+      top: 90%;
+    }
+  }
